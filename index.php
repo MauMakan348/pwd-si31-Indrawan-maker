@@ -17,7 +17,7 @@ $data = json_decode($json, TRUE)
 <?php foreach($data as $key => $value): ?>
 <tr>
     <td><?php echo $value['No'] ?></td>
-    <td><?php echo $value['Nim'] ?></td>
+    <td><?php echo $value['NIM'] ?></td>
     <td><?php echo $value['Nama'] ?></td>
     </tr>
     <?php endforeach ?>
